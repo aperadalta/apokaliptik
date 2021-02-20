@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #0E0E0E;
+  overflow-x: hidden;
+}
+
+#gallery {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(470px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(470px, 1fr));
+}
+
+#contact {
+  color: white;
+  font-size: 2rem;
+  position: fixed;
+  left: 5vw;
+  bottom: 5vh;
+  background-color: #0E0E0E;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 13px;
+}
+
+#contact a {
+  color: white;
+}
+/*# sourceMappingURL=css.css.map */
